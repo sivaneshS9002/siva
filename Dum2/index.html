@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Investo DashBoard</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+     <link rel="stylesheet" href="index3.css">
+     <link rel="stylesheet" href="css/all.min.css" />
+     <link rel="stylesheet" href="css/fontawesome.min.css" />
+</head>
+
+<body>
+     <div class="main-content">
+
+          <div class="left-content">
+
+               <div class="side-bar-header">
+                    <i class="fa-brands fa-codiepie logo-name"></i>
+                    <h2 class="cName" style="color: rgba(13,13,13,255);">Investo</h2>
+               </div>
+
+               <div class="nav-bars">
+                    <div class="nav-bar-items">
+                         <i class="fa-solid fa-border-all"></i>
+                         <p class="st-nav">Dashboard</p>
+                    </div>
+                    <div class="nav-bar-items"> <i class="fa-solid fa-inbox"></i>
+                         <p class="st-nav">Inventory</p>
+                    </div>
+                    <div class="nav-bar-items"> <i class="fa-solid fa-location-crosshairs"></i>
+                         <p class="st-nav">Tracking</p>
+                    </div>
+                    <div class="nav-bar-items">
+                         <i class="fa-solid fa-cart-shopping"></i>
+                         <p class="st-nav order-click">Orders</p>
+                    </div>
+                    <div class="nav-bar-items">
+                         <i class="fa-solid fa-chart-column"></i>
+                         <p class="st-nav"> <span>Report</span>Analytics</p>
+                    </div>
+                    <div class="nav-bar-items">
+                         <i class="fa-solid fa-users"></i>
+                         <p class="st-nav">User <span>Authentication</span></p>
+                    </div>
+                    <div class="nav-bar-items">
+                         <i class="fa-solid fa-sun"></i>
+                         <p class="st-nav">Settings</p>
+                    </div>
+               </div>
+          </div>
+
+          <div class="right-content">
+
+               <div class="right-header">
+
+                    <p style="color: rgba(94,93,99,255);">Order</p>
+                    <div class="right-r">
+                         <div class="shop-name">
+                              <span>Bravaa shop</span>
+                              <i class="fa-solid fa-caret-down"></i>
+                         </div>
+                         <div style="position: relative;">
+                              <div class="notification-circle"></div> <i class="fa-regular fa-bell st-bell"
+                                   style="color: #74C0FC;"></i>
+                         </div>
+                         <img src="images/Soft copy(Sivanesh)_page-0001.jpg" alt="Profile-photo" class="profile-st" />
+                    </div>
+               </div>
+
+               <p class="home-order-st"><span class="hover-dark">Home</span><span class="slash-st">/</span><span
+                         class="hover-dark or-st1">Order</span></p>
+
+               <div class="right-down-content">
+                    <div class="right-down-first">
+                         <p>Order Summary</p>
+                         <button class="add-btn"><i class="fa-solid fa-plus" style="padding-right: 5px;"></i>Add Product</button>
+                    </div>
+                    <div class="right-down-second">
+                         <div class="order-detail-co">
+                              <p class="or-st" style="color:rgba(45,110,216,255)">Total Order</p>
+                              <div class="inside-order">
+                                   <p class="total-st">Total 560</p>
+                                   <p class="st-last-week">Last week</p>
+                              </div>
+                         </div>
+                         <div class="order-detail-co">
+                              <p class="or-st" style="color: rgba(228,197,139,255);">Completed Order</p>
+                              <div class="inside-order">
+                                   <p class="total-st">Total 430</p>
+                                   <p class="st-last-week">Last week</p>
+                              </div>
+                         </div>
+                         <div class="order-detail-co">
+                              <p class="or-st" style="color:rgba(197,128,140,255) ;">In Process Order</p>
+                              <div class="inside-order">
+                                   <p class="total-st">Total 160</p>
+                                   <p class="st-last-week">Last week</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="right-down-third">
+                         
+                         <p class="right-down-third-1">Order Items</p>
+                         <div class="right-down-third-2">
+                              <div class="search-div">
+                                   <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                                   <input type="search" name="searchBar" placeholder="Search" />
+                              </div>
+                              <div class="search-right-div">
+                                   <button class="cm-btn "> <i class="fa-solid fa-filter"></i><span>Filter</span></button>
+                                   <button class="cm-btn"> <i class="fa-regular fa-calendar"></i><span>Date</span></button>
+                                   <button class="cm-btn exp-btn"> <i class="fa-solid fa-download"></i><span>Export</span></button>
+                              </div>
+                         </div>
+
+                         <div class="right-down-third-3">
+                              <table class="row-backround-color-st">
+                                   <thead class="hover-st">
+                                        <th>
+                                             <div class="fist-column">
+                                                  <input type="checkbox" id="main-checkBox"/>
+                                                  <p>Order</p>
+                                             </div>
+                                        </th>
+                                        <th>Customers</th>
+                                        <th>Tracking Id</th>
+                                        <th>Order Date</th>
+                                        <th>Quantity</th>
+                                        <th>Location</th>
+                                        <th>Total</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                   </thead>
+                                   <tbody>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" class="sub-checkBox"/>
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap: .3rem;">
+                                                       <div class="table-circle"  style="border:1px solid green;background:green;"></div>
+                                                       <p style="color: green;">Completed</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" />
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap: 0.3rem;">
+                                                       <div class="table-circle" style="border:1px solid magenta;background:magenta;"></div>
+                                                       <p style="color: magenta;">Panding</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" class="sub-checkBox"/>
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap: .3rem;">
+                                                       <div class="table-circle" style="border:1px solid green;background:green;"></div>
+                                                       <p style="color: green;">Completed</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" class="sub-checkBox"/>
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap: .3rem;">
+                                                       <div class="table-circle" style="border:1px solid green;background:green;"></div>
+                                                       <p style="color: green;">Completed</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" class="sub-checkBox"/>
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap:.3rem;">
+                                                       <div class="table-circle" style="border:1px solid green;background:green;"></div>
+                                                       <p style="color: green;">Completed</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" class="sub-checkBox"/>
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap:.3rem">
+                                                       <div class="table-circle" style="border:1px solid rgb(28, 7, 219); ;background:rgb(28, 7, 219);"></div>
+                                                       <p style="color: rgb(28, 7, 219);;">InProcess</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                        <tr class="hover-st">                    <td>
+                                             <div class="fist-column">
+                                                  <input type="checkbox" class="sub-checkBox"/>
+                                                  <p>Order</p>
+                                             </div>
+                                        </td>
+                                        <td>Arlene McCoy</td>
+                                        <td>#TS121321</td>
+                                        <td>Today-4:20 pm</td>
+                                        <td>20</td>
+                                        <td>Sylhed,Bondor</td>
+                                        <td>$500.00</td>
+                                        <td>
+                                             <div style="display: flex;align-items: center;gap:.3rem">
+                                                  <div class="table-circle"  style="border:1px solid green;background:green;"></div>
+                                                  <p style="color: green;">Completed</p>
+                                             </div>
+                                        </td>
+                                        <td>
+                                             <div class="three-dots">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                             </div>
+                                        </td>
+                                        </tr>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" class="sub-checkBox" />
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap:.3rem">
+                                                       <div class="table-circle"  style="border:1px solid green;background:green;"></div>
+                                                       <p style="color: green;">Completed</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                        <tr class="hover-st">
+                                             <td>
+                                                  <div class="fist-column">
+                                                       <input type="checkbox" class="sub-checkBox"/>
+                                                       <p>Order</p>
+                                                  </div>
+                                             </td>
+                                             <td>Arlene McCoy</td>
+                                             <td>#TS121321</td>
+                                             <td>Today-4:20 pm</td>
+                                             <td>20</td>
+                                             <td>Sylhed,Bondor</td>
+                                             <td>$500.00</td>
+                                             <td>
+                                                  <div style="display: flex;align-items: center;gap:.3rem">
+                                                       <div class="table-circle"  style="border:1px solid magenta;background:magenta;"></div>
+                                                       <p style="color: magenta;">Panding</p>
+                                                  </div>
+                                             </td>
+                                             <td>
+                                                  <div class="three-dots">
+                                                       <div></div>
+                                                       <div></div>
+                                                       <div></div>
+                                                  </div>
+                                             </td>
+                                        </tr>
+                                   </tbody>
+                              </table>
+                         </div>
+                       
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</body>
+<script>
+     const subBoxes = document.querySelectorAll('.sub-checkBox');
+     let c=document.querySelectorAll('.row-backround-color-st');
+     const mainBox = document.getElementById('#main-checkBox');
+     function traverseAllcheckBox(checked) {
+         subBoxes.forEach(item => {
+             item.checked = checked;
+             if(checked===item.checked){
+               c.forEach(item=>item.style.backgroundColor='lightgrey')
+             }
+         });
+     }
+        function changeColor(checked)
+        {
+          if(checked===false)
+          {
+             c.forEach(item=>item.style.backgroundColor='white')
+          }
+        }
+     mainBox.addEventListener('change', () => {
+         if (mainBox.checked) {
+             traverseAllcheckBox(true);
+         }
+         else {
+             traverseAllcheckBox(false);
+             changeColor(false);
+         }
+     });
+ </script>
+</html>
